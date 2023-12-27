@@ -136,8 +136,6 @@
 <section>
     <h2>Berita Terkini Kelurahan Wakanda</h2>
     <a href="{{ route('tambah.berita') }}" class="btn btn-primary mt-3">+ Tambah Berita</a>
-    <a href="#" class="btn btn-primary mt-3">+ Edit Berita</a>
-    <a href="#" class="btn btn-primary mt-3">+ Hapus Berita</a>
     @foreach($beritas as $berita)
         <div class="col-md-3 mt-3">
             <div class="card mb-3">
